@@ -1,0 +1,27 @@
+{{!--
+<figure class="progressive"
+data-aspect-ratio="{{this.aspect_ratio}}"
+data-thumbnail="/img/food/20/{{image.filename}}"
+data-large="/img/food/1200/{{image.filename}}"
+data-medium="/img/food/400/{{image.filename}}"
+data-small="/img/food/100/{{image.filename}}">
+</figure>
+--}}
+{{#extend "base"}}
+{{#content "main" mode="prepend"}}
+<div class="content">
+    <div class="progressive-images" id="progressive-images">
+    </div>
+</div>
+<script type="text/javascript" src="/js/pig.js"></script>
+<script type="text/javascript">
+    var imageData = {{{progressiveImagesJSON}}};
+    var container = document.getElementById('progressive-images');
+    var pig = new Pig(container, imageData, {
+        urlForSize: function(filename, size) {
+            return '/img/food/' + size + '/' + filename;
+        }
+    }).enable();
+</script>
+{{/content}}
+{{/extend}}

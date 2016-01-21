@@ -1,0 +1,4 @@
+node_modules
+dist/*
+src/img/food
+src/food-photos

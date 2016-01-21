@@ -1,0 +1,9 @@
+.content {
+  padding: 3rem 2rem;
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  .content {
+    padding: 2rem 0;
+  }
+}
