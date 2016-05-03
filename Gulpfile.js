@@ -69,8 +69,7 @@ gulp.task('sass', ['sass:lint', 'sass:build']);
 gulp.task('js:build', function() {
   gulp.src('src/js/**/*.js')
     .pipe(plumber())
-
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
 });
 
@@ -156,17 +155,17 @@ gulp.task('build:optimized', ['sass:optimized', 'images', 'images:food', 'fonts'
 
 gulp.task('deploy', ['build:optimized'], function() {
   gulp.src('')
-    .pipe(shell('rsync --exclude img/food -azI dist/* dan@danrs.ch:/srv/food/public_html/'))
+    .pipe(shell('rsync --exclude img/food -azI dist/* dan:/srv/food.schlosser.io/public_html/'))
     .on('finish', function() {
-      process.stdout.write('Deployed to food.schlosser.io');
+      process.stdout.write('Deployed to food.schlosser.io\n');
     });
 });
 
 gulp.task('deploy:food', function() {
   gulp.src('')
-    .pipe(shell('rsync -azI dist/img/food/* dan@danrs.ch:/srv/food/public_html/img/food/'))
+    .pipe(shell('rsync -azI dist/img/food/* dan:/srv/food.schlosser.io/public_html/img/food/'))
     .on('finish', function() {
-      process.stdout.write('Deployed to food.schlosser.io/img/food');
+      process.stdout.write('Deployed to food.schlosser.io/img/food\n');
     });
 });
 

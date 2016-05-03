@@ -96,8 +96,8 @@
   };
 
   var TRANSITION_TIMEOUT_SCALE_FACTOR = 1.5; // px
-  var HEIGHT_OF_PRIMARY_IMAGE_BUFFER = 1500; // px
-  var HEIGHT_OF_SECONDARY_IMAGE_BUFFER = 200; // px
+  var HEIGHT_OF_PRIMARY_IMAGE_BUFFER = 3000; // px
+  var HEIGHT_OF_SECONDARY_IMAGE_BUFFER = 1000; // px
 
   function _extend(obj1, obj2) {
     for (var i in obj2) {
@@ -111,7 +111,7 @@
     this.inRAF = false;
     this.isTransitioning = false;
     this.visibleImages = [];
-    this.latestYOffset;
+    this.latestYOffset = 0;
     this.lastWindowWidth = window.innerWidth;
     this.scrollDirection = 'down';
 
@@ -316,8 +316,9 @@
         currentState = image.existsOnPage;
       }
     }
+
     console.log(start, i, currentState);
-  }
+  };
 
   /**
    *
@@ -357,7 +358,6 @@
 
       // Show thumbnail
       if (!this.thumbnail) {
-        console.log('thumbnail')
         this.thumbnail = new Image();
         this.thumbnail.src = this.sizes.thumbnail;
         this.thumbnail.className = 'progressive-thumbnail';
@@ -378,10 +378,8 @@
         this.fullImage = new Image();
 
         if (lastWindowWidth <= 640) {
-          console.log('small')
           this.fullImage.src = this.sizes.small;
         } else {
-          console.log('medium')
           this.fullImage.src = this.sizes.medium;
         }
 
@@ -397,13 +395,12 @@
         this.element.appendChild(this.fullImage);
       }
 
-    }.bind(this), 100)
+    }.bind(this), 100);
   };
 
   ProgressiveImage.prototype.hide = function() {
 
     if (this.element) {
-      console.log("hiding:", this.loaded, this.thumbnailLoaded);
       if (this.thumbnail) {
         this.element.removeChild(this.thumbnail);
         delete this.thumbnail;
@@ -417,7 +414,7 @@
 
     this.existsOnPage = false;
     this.isVisible = false;
-  }
+  };
 
   ProgressiveImage.prototype.getElement = function() {
     if (!this.element) {
