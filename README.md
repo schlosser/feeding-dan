@@ -1,5 +1,5 @@
-Feeding Dan in 2015
-===================
+Feeding Dan in 2015 ([food.schlosser.io](https://food.schlosser.io))
+====================================================================
 
 In 2015, I took a picture of everything I ate.  These are those photos.
 
