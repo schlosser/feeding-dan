@@ -29,12 +29,12 @@
 - filename: 2015-01-04.19.32.52.jpg
   date: 2015-01-04:19:32:52
   aspectRatio: 1.7777
-- filename: 2015-01-04.19.32.54.jpg
-  date: 2015-01-04:19:32:54
-  aspectRatio: 1.7777
-- filename: 2015-01-04.19.32.59.jpg
-  date: 2015-01-04:19:32:59
-  aspectRatio: 1.7777
+# - filename: 2015-01-04.19.32.54.jpg
+#   date: 2015-01-04:19:32:54
+#   aspectRatio: 1.7777
+# - filename: 2015-01-04.19.32.59.jpg
+#   date: 2015-01-04:19:32:59
+#   aspectRatio: 1.7777
 - filename: 2015-01-05.12.16.10.jpg
   date: 2015-01-05:12:16:10
   aspectRatio: 1.7777
@@ -71,9 +71,9 @@
 - filename: 2015-01-07.16.12.08.jpg
   date: 2015-01-07:16:12:08
   aspectRatio: 1.7777
-- filename: 2015-01-07.20.31.28.jpg
-  date: 2015-01-07:20:31:28
-  aspectRatio: .5625
+# - filename: 2015-01-07.20.31.28.jpg
+#   date: 2015-01-07:20:31:28
+#   aspectRatio: .5625
 - filename: 2015-01-07.20.54.23.jpg
   date: 2015-01-07:20:54:23
   aspectRatio: 1.7777
@@ -224,9 +224,9 @@
 - filename: 2015-01-19.23.36.00.jpg
   date: 2015-01-19:23:36:00
   aspectRatio: 1.7777
-- filename: 2015-01-20.18.36.16.jpg
-  date: 2015-01-20:18:36:16
-  aspectRatio: 1.7777
+# - filename: 2015-01-20.18.36.16.jpg
+#   date: 2015-01-20:18:36:16
+#   aspectRatio: 1.7777
 - filename: 2015-01-20.18.36.19.jpg
   date: 2015-01-20:18:36:19
   aspectRatio: 1.7777
@@ -536,9 +536,9 @@
 - filename: 2015-02-11.20.20.27.jpg
   date: 2015-02-11:20:20:27
   aspectRatio: 1.7777
-- filename: 2015-02-11.20.20.30.jpg
-  date: 2015-02-11:20:20:30
-  aspectRatio: 1.7777
+# - filename: 2015-02-11.20.20.30.jpg
+#   date: 2015-02-11:20:20:30
+#   aspectRatio: 1.7777
 - filename: 2015-02-11.22.15.09.jpg
   date: 2015-02-11:22:15:09
   aspectRatio: 1.7777
@@ -719,9 +719,9 @@
 - filename: 2015-02-24.23.02.25.jpg
   date: 2015-02-24:23:02:25
   aspectRatio: 1.7777
-- filename: 2015-02-24.23.02.27.jpg
-  date: 2015-02-24:23:02:27
-  aspectRatio: 1.7777
+# - filename: 2015-02-24.23.02.27.jpg
+#   date: 2015-02-24:23:02:27
+#   aspectRatio: 1.7777
 - filename: 2015-02-25.13.51.18.jpg
   date: 2015-02-25:13:51:18
   aspectRatio: 1.7777
@@ -758,9 +758,9 @@
 - filename: 2015-02-27.23.59.36.jpg
   date: 2015-02-27:23:59:36
   aspectRatio: 1.7777
-- filename: 2015-02-28.12.32.10.jpg
-  date: 2015-02-28:12:32:10
-  aspectRatio: .5625
+# - filename: 2015-02-28.12.32.10.jpg
+#   date: 2015-02-28:12:32:10
+#   aspectRatio: .5625
 - filename: 2015-02-28.12.32.23.jpg
   date: 2015-02-28:12:32:23
   aspectRatio: 1.7777
@@ -1190,9 +1190,9 @@
 - filename: 2015-03-29.20.02.40.jpg
   date: 2015-03-29:20:02:40
   aspectRatio: 1.7777
-- filename: 2015-03-29.21.15.39.jpg
-  date: 2015-03-29:21:15:39
-  aspectRatio: 1.7777
+# - filename: 2015-03-29.21.15.39.jpg
+#   date: 2015-03-29:21:15:39
+#   aspectRatio: 1.7777
 - filename: 2015-03-29.21.15.43.jpg
   date: 2015-03-29:21:15:43
   aspectRatio: 1.7777
@@ -1787,9 +1787,9 @@
 - filename: 2015-05-06.00.58.34.jpg
   date: 2015-05-06:00:58:34
   aspectRatio: 1.7777
-- filename: 2015-05-06.01.00.43.jpg
-  date: 2015-05-06:01:00:43
-  aspectRatio: 1.7777
+# - filename: 2015-05-06.01.00.43.jpg
+#   date: 2015-05-06:01:00:43
+#   aspectRatio: 1.7777
 - filename: 2015-05-06.16.35.52.jpg
   date: 2015-05-06:16:35:52
   aspectRatio: 1.7777
@@ -2618,12 +2618,12 @@
 - filename: 2015-06-24.16.50.12.jpg
   date: 2015-06-24:16:50:12
   aspectRatio: 1.7777
-- filename: 2015-06-24.17.21.11-1.jpg
-  date: 2015-06-24:17:21:11-1
-  aspectRatio: .5625
-- filename: 2015-06-24.17.21.11.jpg
-  date: 2015-06-24:17:21:11
-  aspectRatio: .5625
+# - filename: 2015-06-24.17.21.11-1.jpg
+#   date: 2015-06-24:17:21:11-1
+#   aspectRatio: .5625
+# - filename: 2015-06-24.17.21.11.jpg
+#   date: 2015-06-24:17:21:11
+#   aspectRatio: .5625
 - filename: 2015-06-24.20.55.46.jpg
   date: 2015-06-24:20:55:46
   aspectRatio: 1.7777
@@ -3389,9 +3389,9 @@
 - filename: 2015-08-01.18.38.41.jpg
   date: 2015-08-01:18:38:41
   aspectRatio: 1.7777
-- filename: 2015-08-01.18.40.11.jpg
-  date: 2015-08-01:18:40:11
-  aspectRatio: .5625
+# - filename: 2015-08-01.18.40.11.jpg
+#   date: 2015-08-01:18:40:11
+#   aspectRatio: .5625
 - filename: 2015-08-01.18.47.53.jpg
   date: 2015-08-01:18:47:53
   aspectRatio: 1.7777
@@ -3434,9 +3434,9 @@
 - filename: 2015-08-01.23.09.13.jpg
   date: 2015-08-01:23:09:13
   aspectRatio: .5625
-- filename: 2015-08-01.23.10.04.jpg
-  date: 2015-08-01:23:10:04
-  aspectRatio: .5625
+# - filename: 2015-08-01.23.10.04.jpg
+#   date: 2015-08-01:23:10:04
+#   aspectRatio: .5625
 - filename: 2015-08-02.11.53.57.jpg
   date: 2015-08-02:11:53:57
   aspectRatio: 1.7777
@@ -4202,9 +4202,9 @@
 - filename: 2015-09-24.18.51.23.jpg
   date: 2015-09-24:18:51:23
   aspectRatio: 1.7777
-- filename: 2015-09-24.18.52.07.jpg
-  date: 2015-09-24:18:52:07
-  aspectRatio: 1.7777
+# - filename: 2015-09-24.18.52.07.jpg
+#   date: 2015-09-24:18:52:07
+#   aspectRatio: 1.7777
 - filename: 2015-09-25.01.25.31.jpg
   date: 2015-09-25:01:25:31
   aspectRatio: .5625
@@ -4367,9 +4367,9 @@
 - filename: 2015-10-10.16.40.55.jpg
   date: 2015-10-10:16:40:55
   aspectRatio: 1.7777
-- filename: 2015-10-10.18.33.42.jpg
-  date: 2015-10-10:18:33:42
-  aspectRatio: 1.7777
+# - filename: 2015-10-10.18.33.42.jpg
+#   date: 2015-10-10:18:33:42
+#   aspectRatio: 1.7777
 - filename: 2015-10-10.18.35.45.jpg
   date: 2015-10-10:18:35:45
   aspectRatio: 1.7777
@@ -4862,12 +4862,12 @@
 - filename: 2015-11-11.13.33.34.jpg
   date: 2015-11-11:13:33:34
   aspectRatio: 1.3333
-- filename: 2015-11-11.13.47.11.jpg
-  date: 2015-11-11:13:47:11
-  aspectRatio: 1.3333
-- filename: 2015-11-11.13.47.21.jpg
-  date: 2015-11-11:13:47:21
-  aspectRatio: 1.3333
+# - filename: 2015-11-11.13.47.11.jpg
+#   date: 2015-11-11:13:47:11
+#   aspectRatio: 1.3333
+# - filename: 2015-11-11.13.47.21.jpg
+#   date: 2015-11-11:13:47:21
+#   aspectRatio: 1.3333
 - filename: 2015-11-11.13.47.25.jpg
   date: 2015-11-11:13:47:25
   aspectRatio: 1.3333
