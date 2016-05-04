@@ -1,4 +1,4 @@
-Feeding Dan in 2015 ([food.schlosser.io](https://food.schlosser.io))
+Feeding Dan in 2015 ([feeding.schlosser.io](https://feeding.schlosser.io))
 ====================================================================
 
 In 2015, I took a picture of everything I ate.  These are those photos.
@@ -51,7 +51,7 @@ Runs `gulp watch` in the background, and serves the `dist` directory at `localho
 
 ### `gulp deploy`
 
-For use by Dan only.  Deploys to `food.schlosser.io`, but won't do so without proper authentication.
+For use by Dan only.  Deploys to `feeding.schlosser.io`, but won't do so without proper authentication.
 
 ## Structure
 

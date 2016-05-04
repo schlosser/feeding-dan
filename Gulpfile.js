@@ -155,17 +155,17 @@ gulp.task('build:optimized', ['sass:optimized', 'images', 'images:food', 'fonts'
 
 gulp.task('deploy', ['build:optimized'], function() {
   gulp.src('')
-    .pipe(shell('rsync --exclude img/food -azI dist/* dan:/srv/food.schlosser.io/public_html/'))
+    .pipe(shell('rsync --exclude img/food -azI dist/* dan:/srv/feeding.schlosser.io/public_html/'))
     .on('finish', function() {
-      process.stdout.write('Deployed to food.schlosser.io\n');
+      process.stdout.write('Deployed to feeding.schlosser.io\n');
     });
 });
 
 gulp.task('deploy:food', function() {
   gulp.src('')
-    .pipe(shell('rsync -azI dist/img/food/* dan:/srv/food.schlosser.io/public_html/img/food/'))
+    .pipe(shell('rsync -azI dist/img/food/* dan:/srv/feeding.schlosser.io/public_html/img/food/'))
     .on('finish', function() {
-      process.stdout.write('Deployed to food.schlosser.io/img/food\n');
+      process.stdout.write('Deployed to feeding.schlosser.io/img/food\n');
     });
 });
 
