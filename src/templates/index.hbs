@@ -16,13 +16,12 @@ data-small="/img/food/100/{{image.filename}}">
             <h2>In 2015, I took a picture of everything I ate. <br> These are those pictures.</h2>
         </header>
     </div>
-    <div class="progressive-images" id="progressive-images"></div>
+    <div class="progressive-images" id="pig"></div>
 </div>
-<script type="text/javascript" src="/js/pig.js"></script>
+<script type="text/javascript" src="/js/lib/pig.min.js"></script>
 <script type="text/javascript">
     var imageData = {{{progressiveImagesJSON}}};
-    var container = document.getElementById('progressive-images');
-    var pig = new Pig(container, imageData, {
+    var pig = new Pig(imageData, {
         urlForSize: function(filename, size) {
             return '/img/food/' + size + '/' + filename;
         }

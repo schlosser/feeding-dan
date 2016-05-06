@@ -3,7 +3,7 @@ Feeding Dan in 2015 ([feeding.schlosser.io](https://feeding.schlosser.io))
 
 In 2015, I took a picture of everything I ate.  These are those photos.
 
-I built a custom image loading system I fondy call `pig.js`.  [Check out that libary here](https://github.com/schlosser/feeding-dan/blob/master/src/js/pig.js).  Does that stand for Progressive Image Grid?  Maybe.  Does it just mean Pig?  Maybe. 
+I built a custom image grid to make this site, called `pig.js` (Progressive Image Grid). [Check out that libary here](https://github.com/schlosser/pig.js).
 
 Dan Eats is built using [Gulp][gulp], [Handlebars.js][handlebars], and [SCSS][scss].
 
