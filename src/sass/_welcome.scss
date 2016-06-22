@@ -9,6 +9,10 @@ header {
   text-align: left;
 }
 
+.pig-figure {
+  background-color: $light-gray;
+}
+
 @media screen and (max-width: $phone-landscape-max) {
   header {
     padding: 0 1rem 2.5rem;
